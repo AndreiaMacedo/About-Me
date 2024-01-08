@@ -89,6 +89,7 @@ body * {
 }
 
 .light #switch button{
+  animation: slide-in 0.4s forwards;
   right: 0;
   left: initial;
 }
@@ -170,5 +171,15 @@ ul li a:hover {
   }
   .ligth {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+
+/* add smmoth botton */
+@keyframes slide-in {
+  from{
+    left:0;
+  }
+  to {
+    left: 50%;
   }
 }
