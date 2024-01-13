@@ -88,7 +88,7 @@ body * {
   transform: translateY(-50%);
 }
 
-.light #switch button{
+.light #switch button {
   animation: slide-in 0.4s forwards;
 }
 
@@ -174,8 +174,8 @@ ul li a:hover {
 
 /* add smmoth botton */
 @keyframes slide-in {
-  from{
-    left:0;
+  from {
+    left: 0;
   }
   to {
     left: 50%;
